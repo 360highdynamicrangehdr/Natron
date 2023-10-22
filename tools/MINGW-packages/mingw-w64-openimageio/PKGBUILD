@@ -3,7 +3,7 @@
 _realname=openimageio
 pkgbase=mingw-w64-natron_${_realname}
 pkgname="${MINGW_PACKAGE_PREFIX}-natron_${_realname}"
-pkgver=2.4.13.0
+pkgver=2.5.4.0
 pkgrel=99.1
 pkgdesc="A library for reading and writing images, including classes, utilities, and applications (mingw-w64)"
 arch=('any')
@@ -22,7 +22,8 @@ depends=("${MINGW_PACKAGE_PREFIX}-boost"
          "${MINGW_PACKAGE_PREFIX}-natron_openexr"
          "${MINGW_PACKAGE_PREFIX}-libheif"
          "${MINGW_PACKAGE_PREFIX}-openjpeg2"
-         "${MINGW_PACKAGE_PREFIX}-zlib")
+         "${MINGW_PACKAGE_PREFIX}-zlib"
+         "${MINGW_PACKAGE_PREFIX}-libdeflate")
 makedepends=("${MINGW_PACKAGE_PREFIX}-cmake"
              "${MINGW_PACKAGE_PREFIX}-boost"
              "${MINGW_PACKAGE_PREFIX}-cc"
